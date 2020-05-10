@@ -1,0 +1,64 @@
+html, body {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  z-index: -999;
+}
+canvas {
+  position: fixed;
+  /* opacity:0.9; */
+  /* z-index: -1; */
+
+  width: 100%;
+  height: 100%;
+}
+p{
+  /* z-index: -1; */
+  padding: 10px;
+  color: black;
+}
+
+.submitDiv{
+  /* position: fixed; */
+  /* top: 40%;
+  left: 43%; */
+  background-color: white;
+  padding: 10px;
+  /* opacity:0.65; */
+}
+
+h3{
+  top: 40%;
+  left: 45%;
+}
+h4{
+  top: 40%;
+  left: 45%;
+}
+
+text{
+  padding: 20px;
+}
+
+#messageDiv{
+  overflow: scroll;
+  width: 500px;
+  height: 500px;
+
+}
+
+#chat{
+  margin-top: 160px;
+  left: 140%;
+
+  padding: 10px;
+  background-color: white;
+  opacity: 0.9;
+
+}
+
+#sendBtn{
+  position: relative;
+  left: 433px;
+
+}
